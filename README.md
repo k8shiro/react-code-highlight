@@ -2,7 +2,7 @@
 
 最終的にgithub pagesに公開される
 
-DEMO: https://k8shiro.github.io/ReactCompareCodeHighlighter/
+DEMO: https://k8shiro.github.io/react-code-highlight/
 
 # 使い方
 ※  プロジェクト名やユーザー名等は適宜書き換えること
@@ -30,7 +30,7 @@ docker-compose run --service-ports node ash -c "cd comp-highlighter; yarn add gh
 package.jsonに以下を追記
 
 ```
-"homepage": "https://k8shiro.github.io/ReactCompareCodeHighlighter"
+"homepage": "https://k8shiro.github.io/react-code-highlight"
 ```
 
 build
@@ -43,5 +43,5 @@ docker-compose run --service-ports node ash -c "cd comp-highlighter; yarn build"
 ※ gh-pages追加・buildが必要
 
 ```
-docker-compose run --service-ports node ash -c "cd comp-highlighter; yarn run gh-pages --user 'k8shiro <my.github@mail.addr>' --repo https://github.com/k8shiro/ReactCompareCodeHighlighter -d build"
+docker-compose run --service-ports node ash -c "cd comp-highlighter; yarn run gh-pages --user 'k8shiro <my.github@mail.addr>' --repo https://github.com/k8shiro/react-code-highlight -d build"
 ```
